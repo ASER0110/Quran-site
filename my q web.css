@@ -49,7 +49,7 @@ a{
 }
 @font-face {
   font-family: 'Uthmani';
-  src:url("../../../../Downloads/kfgqpc-uthmanic-script-hafs-regular/KFGQPC Uthmanic Script HAFS Regular/KFGQPC Uthmanic Script HAFS Regular.otf")  format('truetype');
+  src:url("KFGQPC Uthmanic Script HAFS Regular.otf")  format('truetype');
   font-display: swap;
 }
 div:hover {
