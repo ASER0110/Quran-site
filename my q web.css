@@ -1,0 +1,64 @@
+body{
+    color: white;
+    font-size: 40px;
+    line-height: 2.2;
+    word-spacing: 5px;
+    overflow: hidden;
+    background-image: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 55px;
+    margin-top: 50px;
+}
+div{
+    background-color:  rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    overflow-y: scroll;
+    width: 100%;
+    height: 80vh;
+    font-family: 'Uthmani', serif;
+    padding-right: 10px;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-shadow: 
+    0 -1px teal,
+    0 1px teal,
+    -1px 0 teal,
+    1px 0 teal;
+}
+audio {
+    margin-left: 350px;
+    max-width: 800px;
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color:none;
+    width: 100%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    filter: invert(1) hue-rotate(180deg);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+@font-face {
+  font-family: 'Uthmani';
+  src:url("../../../../Downloads/kfgqpc-uthmanic-script-hafs-regular/KFGQPC Uthmanic Script HAFS Regular/KFGQPC Uthmanic Script HAFS Regular.otf")  format('truetype');
+  font-display: swap;
+}
+div:hover {
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+
+p span:hover {
+    background-color: #ffd700;
+    color: #310062; 
+    text-shadow: none;
+}
