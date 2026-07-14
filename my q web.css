@@ -59,7 +59,7 @@ p span:hover {
     text-shadow: none;
 }
 button {
-    margin-bottom: 100px;
+    margin-top: 100px;
     color: #fff;
       background: linear-gradient(145deg, #2e004f, #4b0082);
       border: 2px solid #d4af37;
