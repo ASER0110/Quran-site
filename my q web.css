@@ -58,23 +58,26 @@ p span:hover {
     color: #310062; 
     text-shadow: none;
 }
-button{
-    color: white;
-    background-color: black;
-    border-radius: 50px;
-    border-color: cyan;
-    width: 400px;
-    height: 100px;
-    font-size: 80px;
-    text-shadow: 
-    0 -1px teal,
-    0 1px teal,
-    -1px 0 teal,
-    1px 0 teal;
-    margin-left: 10px;
-    margin-right: 10px;
-    cursor: pointer;
+button {
+  color: #fff;
+  background: linear-gradient(145deg, #2e004f, #4b0082);
+  border: 2px solid #d4af37;
+  border-radius: 50px;
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  font-family: 'Uthmani', serif;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
+
+button:hover {
+  background: linear-gradient(145deg, #4b0082, #6a0dad);
+  box-shadow: 0 0 20px #d4af37;
+  transform: scale(1.05);
+}
+
 #id{
     text-align: center;
     background-color: transparent;
