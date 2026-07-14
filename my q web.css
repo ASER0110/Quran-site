@@ -59,8 +59,8 @@ p span:hover {
     text-shadow: none;
 }
 button {
-     margin-buttom: 100px
-      color: #fff;
+    margin-bottom: 100px;
+    color: #fff;
       background: linear-gradient(145deg, #2e004f, #4b0082);
       border: 2px solid #d4af37;
       border-radius: 50px;
