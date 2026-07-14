@@ -93,4 +93,5 @@ button:hover {
     0 1px teal,
     -1px 0 teal,
     1px 0 teal;
+    box-shadow: none;
 }
