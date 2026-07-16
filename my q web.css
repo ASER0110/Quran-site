@@ -62,7 +62,7 @@ button {
     margin-left: 100px;
     margin-top: 50px;
     color: #fff;
-    background-color: transparent;
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
     border: 2px solid #d4af37;
     border-radius: 50px;
     width: 400px;
