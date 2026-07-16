@@ -4,7 +4,7 @@ body{
     line-height: 2.2;
     word-spacing: 5px;
     overflow: hidden;
-    background-image: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    background-color: #2D4F47;
     background-attachment: fixed;
     text-align: center;
 }
@@ -15,6 +15,7 @@ h1{
     margin-top: 50px;
 }
 div{
+    padding-right: 10px;
     background-color:  rgba(255, 255, 255, 0);
     border-radius: 10px;
     overflow-y: scroll;
@@ -24,8 +25,7 @@ div{
     padding-right: 10px;
     scrollbar-width: none;
     scroll-behavior: smooth;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
     text-shadow: 
     0 -1px teal,
     0 1px teal,
@@ -40,43 +40,44 @@ audio {
     margin-top: 30px;
     background-color:none;
     width: 100%;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-    filter: invert(1) hue-rotate(180deg);
+    box-shadow: 
+    0 -1px #0028FF,
+    0 1px #0028FF,
+    -1px 0 #0028FF,
+    1px 0 #0028FF;
+    filter: invert(1);
 }
 @font-face {
   font-family: 'Uthmani';
   src:url("KFGQPC Uthmanic Script HAFS Regular.otf")  format('opentype');
   font-display: swap;
 }
-div:hover {
-    transition: background-color 0.3s ease;
-    border-radius: 20px;
-}
-
 p span:hover {
     background-color: #ffd700;
     color: #310062; 
     text-shadow: none;
 }
 button {
-    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
     color: #fff;
-      background: linear-gradient(145deg, #2e004f, #4b0082);
-      border: 2px solid #d4af37;
-      border-radius: 50px;
-      width: 400px;
-      height: 100px;
-      font-size: 50px;
-      font-family: 'Uthmani', serif;
-      text-shadow: 0 2px 5px rgba(0,0,0,0.5);
-      transition: all 0.3s ease;
-      cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #d4af37;
+    border-radius: 50px;
+    width: 400px;
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Uthmani', serif;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.45);
 }
 
 button:hover {
-      background: linear-gradient(145deg, #4b0082, #6a0dad);
-      box-shadow: 0 0 20px #d4af37;
-      transform: scale(1.05);
+    box-shadow: 0 0 20px #d4af37, 0 0 20px rgba(0, 0, 0, 0.45);
+    transform: scale(1.05);
 }
 
 #id{
